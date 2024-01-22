@@ -2,85 +2,132 @@ header, nav, main, footer { display:block}
 
 * { box-sizing: border-box; }
 
-header {
-    width: 100%;
-    height: 10%;
-    background-color: blue;
-    background-image: url(../images/logo.jpg);
+#wrapper{
+    background-color: #1A120B;
+    padding: 0 10%;
+    color: #1A120B;
 }
 
-.logo {
-    background-size: 30%;
-    background-repeat: no-repeat;
-    float: left;
-}
-nav{
-    text-align: right;
-    width: 70%;
-    float: right;
-    height: 10vh;
+header {    
+    text-align: center;
+    overflow: hidden;
+    background-color: #3C2A21;
 }
 
-nav a{
+h1{
+    border: none;
+    font-size: 4em;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #D5CEA3;
+}
+
+a{
     text-decoration: none;
-    padding: 5% 75px;
-    display: inline-block;
-    transition: 0.5s;
 }
 
-nav a:visited{
-    color: tomato;
+a:visited{
+    color: #D5CEA3;
 }
 
-nav a:link {
-    color: blue;
-}
-
-ul {
+nav ul{
     list-style-type: none;
-    padding-left: 0;
+    margin: 0;
+    padding: 0;
+    
 }
-.banner {
-    background-image: url(images/background.jpg);
-    height: 100vh;
-    text-align: center;
-    padding: 100px;
-    margin: auto;
-}
-.banner2 {
-    background-image: url(images/background.jpg);
-    height: 100%;
-    text-align: center;
-    padding: 100px;
-    margin: auto;
+nav ul li{
+    float: left;
+    width: 50%;
+    background-color: #3C2A21;
 }
 
-.banner-text {
-    width: 60%;
-    margin: 40px auto;
-    line-height: 40px;
+nav ul li a{
+    font-size: 21px;
+    padding: 10px 0;
+    display: block;
+    border: 1px solid #1A120B;
 }
 
-.banner ul{
+nav ul li a:hover{
+    background-color: #D5CEA3;
+    color: #1A120B;
+}
+
+nav ul li a:visited{
+    background-color: #3C2A21;
+    color: #D5CEA3;
+}
+
+.body{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1%;
+    font-size: 21px;
+    background-color: #D5CEA3;
+}
+
+.bodyHome{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1%;
+    font-size: 21px;
+    background-color: #D5CEA3;
+    height:100vh;
+}
+
+.main {
+    margin-top: 20vh;
+    font-size: 3em;
+}
+.bodyHome .main li{
     list-style-type: none;
-    padding-left: 0;
+    text-align: center;
+
 }
-h1 {
-    font-size: 2.5em;
+
+.bodyHome .main li a{
+    color: #1A120B;
 }
-h2 {
+
+.bodyHome .main li a:hover{
+    color: #E5E5CB;
+}
+
+.ref{
+    list-style-type: none;
+    font-size: 1.4em;
+}
+
+.ref li a{
+    color: #1A120B;
+}
+
+.ref li a:hover{
+    color: #E5E5CB;
+}
+
+h2{
     font-size: 2em;
 }
+
+h3 {
+    font-size: 1.8em;
+}
+
 p {
-    font-size: 1.5em;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.indexli {
-    font-size: 1.5em;
+.bigger{
+    font-size: 1.4em;
 }
 
-#wrapper{
-    line-height: 200%;
-    margin: auto;
-    font-family: sans-serif;
-}
+
+
+
+
+
+
